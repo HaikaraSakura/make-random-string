@@ -18,6 +18,3 @@ function makeRandomString(int $length = 20): string
     }
     return $rand_chars;
 }
-
-// 40文字のトークンを生成
-makeRandomString(40);
