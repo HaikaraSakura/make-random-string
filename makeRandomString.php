@@ -2,7 +2,13 @@
 
 declare(strict_types=1);
 
-function makeRandomString(int $length = 20): string
+/**
+ * 数字と大小英字のランダムなトークンを生成する。
+ *
+ * @param integer $length トークンの文字数を指定する
+ * @return string 生成したトークンを返す
+ */
+function makeRandomString(int $length = 40): string
 {
     // トークンに用いる文字の配列
     $chars = [
